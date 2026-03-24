@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>maaf bil</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to bottom, #f3e8ff, #e9d5ff);
+      text-align: center;
+      padding: 30px;
+      color: #5b3b8a;
+    }
+
+    .container {
+      max-width: 600px;
+      margin: auto;
+      background: #ffffffcc;
+      padding: 25px;
+      border-radius: 20px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    }
+
+    h1 {
+      color: #7c3aed;
+    }
+
+    p {
+      text-align: justify;
+      line-height: 1.6;
+    }
+
+    iframe {
+      margin-top: 20px;
+      border-radius: 15px;
+    }
+
+    .btn-container {
+      margin-top: 30px;
+    }
+
+    button {
+      border: none;
+      padding: 12px 20px;
+      margin: 10px;
+      border-radius: 12px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    #yesBtn {
+      background-color: #c4b5fd;
+      color: #4c1d95;
+      transform: scale(1);
+    }
+
+    #noBtn {
+      background-color: #e9d5ff;
+      color: #6b21a8;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>buat bibil </h1>
+
+    <p>
+      (🥺)
+      <br><br>
+      Aku bener gatau mau ngomong gimana lagi, emang iya sih aku ngerasa, ya ga cuma sebatas ngerasa kalo sekarang, aku manfaatin kamu, aku juga jadi keinget waktu itu aku nyuruh nyuruh kamu, maafin yaa, plis aku gakuat, aku emang senyebelin ini, aku tau kok, emm, buat besok besok aku gabakal kayak gitu lagii, maaf yaaaaa, aku telat banget kayak gini, telat sadar, maafin aku bil, gatau deh, gabisa nangis lama lama sekarang, makasih ya, aku bingung banget plis, mau nyalahin kamu baru ngomong sekarang juga engga, mau ngungkit ngungkit jobdesk kita masing masing juga udah basi, ah udahlah, intinya aku sadar bil, aku tau emang ada pure ini salahku, 
+    </p>
+
+    <!-- YouTube Embed -->
+    <iframe width="100%" height="200"
+      src="https://www.youtube.com/embed/6v2L2UGZJAM?autoplay=1&loop=1&playlist=6v2L2UGZJAM"
+      frameborder="0" allow="autoplay"></iframe>
+
+    <h2>Maafin aku ya? 🥺</h2>
+
+    <div class="btn-container">
+      <button id="yesBtn">Iya</button>
+      <button id="noBtn">Engga</button>
+    </div>
+  </div>
+
+  <script>
+    let noClickCount = 0;
+    let yesBtn = document.getElementById("yesBtn");
+    let noBtn = document.getElementById("noBtn");
+
+    let noTexts = [
+      "Engga",
+      "Yakin?",
+      "Maafin plis",
+      "Pliss maafin aku",
+      "Aku beneran nyesel 😭",
+      "Jangan gitu dong...",
+      "Kasian aku 🥺",
+      "Aku janji berubah",
+      "Pliss banget...",
+      "Terakhir nih 😭"
+    ];
+
+    noBtn.addEventListener("click", function() {
+      if (noClickCount < 10) {
+        noBtn.innerText = noTexts[noClickCount];
+        noClickCount++;
+
+        let scale = 1 + (noClickCount * 0.2);
+        yesBtn.style.transform = "scale(" + scale + ")";
+      }
+    });
+
+    yesBtn.addEventListener("click", function() {
+      document.body.innerHTML = `
+        <div style="display:flex;justify-content:center;align-items:center;height:100vh;flex-direction:column;background:#f3e8ff;color:#5b3b8a;">
+          <h1>Makasih ya udah maafin aku 💜</h1>
+          <p>Aku janji bakal jadi lebih baik lagi 🥺</p>
+        </div>
+      `;
+    });
+  </script>
+
+</body>
+</html>
