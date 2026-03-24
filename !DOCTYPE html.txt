@@ -2,7 +2,7 @@
 <html lang="id">
 <head>
   <meta charset="UTF-8">
-  <title>Untuk Kamu 💜</title>
+  <title>maaf bil</title>
   <style>
     body {
       font-family: 'Segoe UI', sans-serif;
@@ -64,13 +64,12 @@
 <body>
 
   <div class="container">
-    <h1>Untuk Kamu 💜</h1>
+    <h1>buat bibil </h1>
 
     <p>
-      (Tulis isi permintaan maaf kamu di sini ya… panjang banget juga gapapa 🥺)
+      (🥺)
       <br><br>
-      Aku bener-bener minta maaf atas semuanya…
-      Aku harap kamu masih mau maafin aku…
+      Aku bener gatau mau ngomong gimana lagi, emang iya sih aku ngerasa, ya ga cuma sebatas ngerasa kalo sekarang, aku manfaatin kamu, aku juga jadi keinget waktu itu aku nyuruh nyuruh kamu, maafin yaa, plis aku gakuat, aku emang senyebelin ini, aku tau kok, emm, buat besok besok aku gabakal kayak gitu lagii, maaf yaaaaa, aku telat banget kayak gini, telat sadar, maafin aku bil, gatau deh, gabisa nangis lama lama sekarang, makasih ya, aku bingung banget plis, mau nyalahin kamu baru ngomong sekarang juga engga, mau ngungkit ngungkit jobdesk kita masing masing juga udah basi, ah udahlah, intinya aku sadar bil, aku tau emang ada pure ini salahku, 
     </p>
 
     <!-- YouTube Embed -->
